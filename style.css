@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+  color: #fff;
+}
+
+.container {
+  background: #111;
+  margin: 20px auto;
+  padding: 30px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+input[type="text"], input[type="email"] {
+  padding: 15px;
+  margin: 12px 0;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #555;
+  width: 60%;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 15px 10px;
+  font-size: 22px;
+  border-radius: 12px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.option {
+  display: block;
+  padding: 20px;
+  margin: 15px auto;
+  border: 2px solid #555;
+  border-radius: 12px;
+  font-size: 22px;
+  cursor: pointer;
+  width: 50%;
+  transition: 0.3s;
+  text-align: left;
+  background: #222;
+}
+
+.option:hover {
+  background: #444;
+}
+
+.selected {
+  background: green !important;
+  color: #fff;
+}
+
+#quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: 8px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.attempted { background: green; }
+.not-attempted { background: red; }
+
+input[type="checkbox"]{
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
